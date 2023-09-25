@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_training_basic/screens/authentication/view/authentication_view.dart';
+
+import '../../authentication/view/authentication_view.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
@@ -8,7 +9,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.yellow),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,

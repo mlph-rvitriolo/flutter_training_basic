@@ -1,12 +1,12 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_training_basic/domain/models/grocery.dart';
-import 'package:flutter_training_basic/screens/grocery_detail/view/grocery_detail_view.dart';
-import 'package:flutter_training_basic/screens/grocery_list/view_model/grocery_list_view_model.dart';
 import 'package:flutter_training_basic/shared/widgets/center_app_bar.dart';
 
 import '../../../shared/widgets/custom_dialog.dart';
 import '../../../shared/widgets/custom_textfield.dart';
+import '../../grocery_detail/view/grocery_detail_view.dart';
+import '../view_model/grocery_list_view_model.dart';
 
 class GroceryListView extends StatelessWidget {
   GroceryListView({super.key});
